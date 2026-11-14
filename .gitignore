@@ -1,0 +1,14 @@
+.build/
+# A library does not pin its dependencies; apps that use it do.
+/Package.resolved
+.swiftpm/
+*.xcodeproj
+DerivedData/
+# Never commit AT material: certificates, keys, sub-user passwords.
+*.pem
+*.key
+*.crt
+*.cer
+*.pfx
+*.p12
+.env
